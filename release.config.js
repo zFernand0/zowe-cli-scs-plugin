@@ -3,7 +3,9 @@ module.exports = {
         {
             name: "master",
             level: "patch",
-            devDependencies: ["@zowe/imperative"]
+            devDependencies: {
+                "@zowe/imperative": "zowe-v1-lts"
+            }
         },
         {
             name: "update-workflows",
