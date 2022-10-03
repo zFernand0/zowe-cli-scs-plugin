@@ -42,7 +42,7 @@ jobs:
 
     - name: Update Dependencies
       id: npm-update
-      uses: zowe-actions/octorelease-script@master
+      uses: zfernand0/octorelease-script@test-npm-update-script
       with:
         script: npmUpdate
 
@@ -108,7 +108,7 @@ jobs:
       run: npm ci
 
     - name: Update Dependencies
-      uses: zowe-actions/octorelease-script@master
+      uses: zfernand0/octorelease-script@test-npm-update-script
       env:
         GIT_COMMITTER_NAME: zowe-robot
         GIT_COMMITTER_EMAIL: zowe.robot@gmail.com
