@@ -9,7 +9,9 @@ module.exports = {
             name: "update-workflows",
             level: "patch",
             prerelease: true,
-            devDependencies: ["@zowe/imperative"]
+            devDependencies: {
+                "@zowe/imperative": "zowe-v1-lts"
+            }
         }
     ],
     plugins: [
